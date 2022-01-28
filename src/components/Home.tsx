@@ -19,8 +19,8 @@ const Home = (): React.ReactElement => (
       artwork for video games (mainly Nintendo)
     </span>
     <span>
-      we're super excited to share with you all sorts of renders - make sure to stay up to date with
-      our latest renders by following our twitter <TwitterHandle />!
+      we&apos;re super excited to share with you all sorts of renders - make sure to stay up to date
+      with our latest renders by following our twitter <TwitterHandle />!
     </span>
   </Container>
 );
