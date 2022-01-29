@@ -12,7 +12,6 @@ const Container = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
-  background-color: #c2c2c2;
 `;
 
 const Navigator = styled.div`

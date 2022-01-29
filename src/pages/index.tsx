@@ -11,6 +11,7 @@ const Container = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
+  background-image: url('/background.png');
 `;
 
 const Body = styled.div`
@@ -21,7 +22,6 @@ const Body = styled.div`
   align-items: center;
   gap: 48px;
   padding: 24px;
-  background-color: #d9c3c9;
 `;
 
 const Logo = styled.img`
