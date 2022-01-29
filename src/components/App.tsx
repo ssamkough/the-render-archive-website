@@ -10,7 +10,7 @@ const TITLE = 'the render archive';
 const DESCRIPTION = 'a group collecting render artwork for video games';
 const WALLPAPER_PATH = '/the-render-archive-bg.png';
 const WALLPAPER_ALT = 'the render archive logo';
-const FAVICON_PATH = '/home-bg.png';
+const FAVICON_PATH = '/favicon.png';
 const PAGE_URL = 'https://therenderarchive.com';
 const TWITTER_URL = 'https://twitter.com/Render_Archive';
 
