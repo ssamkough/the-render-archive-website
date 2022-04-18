@@ -8,7 +8,7 @@ interface Props {
 }
 
 const Container = styled.div`
-  max-width: 400px;
+  width: 100%;
   height: 100vh;
   display: flex;
   background-image: url('/background/background.png');

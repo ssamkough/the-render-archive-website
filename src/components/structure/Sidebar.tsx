@@ -5,7 +5,8 @@ import styled from 'styled-components';
 import { MENU } from '../../constants/constants';
 
 const Container = styled.div`
-  max-width: 400px;
+  max-width: 300px;
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
