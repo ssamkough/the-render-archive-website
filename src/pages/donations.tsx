@@ -1,18 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
-import TwitterHandle from './TwitterHandle';
+import App from '../components/structure/App';
+import TwitterHandle from '../components/TwitterHandle';
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  line-height: 2.5rem;
-  margin-right: 24px;
-  margin-left: 24px;
-`;
-
-const Info = (): React.ReactElement => (
-  <Container>
+/**
+ * Donations page of the app.
+ */
+const donations = (): React.ReactElement => (
+  <App>
     <h3>what is this?</h3>
     <span>
       the render archive is a dedicated group collecting render artwork for video games (mainly
@@ -28,7 +22,7 @@ const Info = (): React.ReactElement => (
     <span>
       follow our twitter <TwitterHandle />
     </span>
-  </Container>
+  </App>
 );
 
-export default Info;
+export default donations;

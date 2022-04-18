@@ -1,6 +1,13 @@
 import React from 'react';
 import { LINKS } from '../constants/constants';
 
-const TwitterHandle = (): React.ReactElement => <a href={LINKS.twitter}>@Render_Archive</a>;
+/**
+ * External link to the twitter.
+ */
+const TwitterHandle = (): React.ReactElement => (
+  <a href={LINKS.twitter} target="_blank" rel="noreferrer">
+    @Render_Archive
+  </a>
+);
 
 export default TwitterHandle;

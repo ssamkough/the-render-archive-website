@@ -3,51 +3,44 @@ export const LINKS = {
   discord: 'http://discord.gg/Fp8TypMZZv',
 };
 
-export type Menu = 'home' | 'games' | 'info';
+export type Menu = 'home' | 'collections' | 'donations' | 'twitter' | 'discord';
 
-type MenuRecord = {
-  [key in Menu]: key;
-};
-
-export const menu: MenuRecord = {
-  home: 'home',
-  games: 'games',
-  info: 'info',
-};
-
-export type Social = 'twitter' | 'discord';
-
-type SocialInfo<S> = {
-  social: S;
+type MenuItem = {
   link: string;
-  path: string;
+  img: string;
+  alt: string;
+  isExternal?: boolean;
 };
 
-type SocialsRecord = {
-  [key in Social]: SocialInfo<key>;
-};
-
-export const socials: SocialsRecord = {
+/**
+ * All sidebar menu items and their content.
+ */
+export const MENU: Record<Menu, MenuItem> = {
+  home: {
+    link: '/',
+    img: '/icons/home-icon.png',
+    alt: 'home icon',
+  },
+  collections: {
+    link: '/collections',
+    img: '/icons/collections-icon.png',
+    alt: 'collections icon',
+  },
+  donations: {
+    link: '/donations',
+    img: '/icons/donations-icon.png',
+    alt: 'donations icon',
+  },
   twitter: {
-    social: 'twitter',
     link: LINKS.twitter,
-    path: '/icons/twitter.png',
+    img: '/icons/twitter-icon.png',
+    alt: 'twitter icon',
+    isExternal: true,
   },
   discord: {
-    social: 'discord',
     link: LINKS.discord,
-    path: '/icons/discord.svg',
+    img: '/icons/discord-icon.png',
+    alt: 'discord icon',
+    isExternal: true,
   },
 };
-
-interface Image {
-  src: string;
-  alt: string;
-}
-
-export const IMAGES: Image[] = [
-  {
-    src: '/super-mario-world.png',
-    alt: 'super mario world',
-  },
-];
