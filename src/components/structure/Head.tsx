@@ -3,8 +3,8 @@ import React from 'react';
 
 const TITLE = 'The Render Archive';
 const DESCRIPTION = 'A group collecting render artwork for video games.';
-const WALLPAPER_PATH = '/background/background.png';
-const WALLPAPER_ALT = 'The Render Archive Background';
+const WALLPAPER_PATH = '/misc/logo.png';
+const WALLPAPER_ALT = 'The Render Archive Wallpaper';
 const LOGO_IMG = '/misc/logo.png';
 const PAGE_URL = 'https://therenderarchive.com';
 const TWITTER_URL = 'https://twitter.com/Render_Archive';
