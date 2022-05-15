@@ -9,9 +9,6 @@ const Container = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
-  background-image: url(/background/side-bar.png);
-  background-size: cover;
 `;
 
 const Navigator = styled.div`
@@ -33,8 +30,8 @@ const MainNavigation = styled.div`
 `;
 
 const Icon = styled.img`
-  width: 48px;
-  height: 48px;
+  width: 128px;
+  height: 128px;
   cursor: pointer;
 `;
 
