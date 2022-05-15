@@ -9,10 +9,10 @@ interface Props {
 
 const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  flex: 1;
   display: flex;
-  background-image: url('/background/background.png');
-  background-size: cover;
+  overflow: auto;
 `;
 
 const Content = styled.div`
